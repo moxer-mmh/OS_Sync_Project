@@ -33,7 +33,7 @@ Short multimedia presentation explaining OS synchronization and communication co
 1. Clone the repository
 
    ```bash
-   git clone [https://github.com/moxer-mmh/OS_Sync_Project.git]
+   git clone https://github.com/moxer-mmh/OS_Sync_Project.git
    cd OS_Sync_Project
    ```
 2. Check media files are present in their respective directories
