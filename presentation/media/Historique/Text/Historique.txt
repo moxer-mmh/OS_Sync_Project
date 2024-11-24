@@ -1,0 +1,5 @@
+Dans les années 60, les ordinateurs ne pouvaient exécuter qu'une seule tâche à la fois. Un véritable défi se posait : comment permettre à plusieurs programmes de coexister harmonieusement ? 
+
+Les premiers systèmes de time-sharing ont émergé, permettant à plusieurs utilisateurs de partager un même ordinateur. Mais un nouveau problème est apparu : la gestion des ressources communes.
+
+C'est ainsi que sont nés les concepts fondamentaux de synchronisation et de communication entre les processus, des innovations qui ont révolutionné l'informatique moderne.

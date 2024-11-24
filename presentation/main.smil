@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+  <head>
+    <layout>
+      <!-- Main layout with 1080p dimensions -->
+      <root-layout width="1920" height="1080" backgroundColor="#ffffff"/>
+      
+      <!-- Main content region -->
+      <region id="mainRegion" left="0" top="0" width="1920" height="1080"/>
+      
+      <!-- Text overlay region - changed rgba to hex -->
+      <region id="textRegion" left="0" top="800" width="1920" height="100"
+               transparency="100"/>
+    </layout>
+  </head>
+
+  <body>
+    <seq>
+      <!-- Introduction Section -->
+      <par dur="17s">
+            <!-- Audio narration -->
+            <audio src="media/Introduction/Audio/Introduction.mp3" dur="17s"/>
+            
+            <!-- Videos sequence -->
+            <seq>
+                <video src="media/Introduction/Videos/intro-1.mp4" region="mainRegion" dur="6s" fill="meet"/>
+                <video src="media/Introduction/Videos/intro-2.mp4" region="mainRegion" dur="6s" fill="meet"/>
+                <video src="media/Introduction/Videos/intro-3.mp4" region="mainRegion" dur="5s" fill="meet"/>
+            </seq>
+            
+            <!-- Text overlay -->
+            <text src="media/Introduction/Text/Introduction.txt" region="textRegion"/>
+      </par>
+    </seq>
+  </body>
+</smil>

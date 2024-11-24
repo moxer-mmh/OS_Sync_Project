@@ -1,0 +1,5 @@
+Ces concepts abstraits prennent vie dans votre quotidien. Quand vous prenez une photo tout en écoutant de la musique, c'est la synchronisation qui permet cette coexistence harmonieuse.
+
+Quand vous recevez des messages pendant une visioconférence, c'est la communication inter-processus qui entre en jeu.
+
+Et quand vos fichiers se synchronisent avec le cloud sans corruption, c'est grâce aux mécanismes de contrôle d'accès aux ressources.
