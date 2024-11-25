@@ -1,1 +1,1 @@
-Dans les années 60, les ordinateurs ne pouvaient exécuter qu'une seule tâche à la fois. Un véritable défi se posait : comment permettre à plusieurs programmes de coexister harmonieusement ? 
+Dans les années 60, les ordinateurs ne pouvaient exécuter qu'une seule tâche à la fois

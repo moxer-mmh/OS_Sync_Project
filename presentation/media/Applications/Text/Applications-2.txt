@@ -1,0 +1,2 @@
+
+Quand vous recevez des messages pendant une visioconférence, c'est la communication inter-processus qui entre en jeu

@@ -11,21 +11,83 @@ Short multimedia presentation explaining OS synchronization and communication co
 ```
 📁 OS_Sync_Project/
    📄 README.md
+   📄 .gitignore
+   📄 LICENSE
    📁 presentation/
       📄 main.smil
       📁 media/
-         📁 videos/
-         📁 audio/
-         📁 images/
-         📁 text/
-   
-   📁 documentation/
-      📄 technical_guide.pdf
-   
-   📁 source_files/
-      📁 scripts/
-      📁 raw_media/
-      📁 designs/
+         📁 Applications/
+            📁 Audio/
+               📄 Applications.mp3
+            📁 Text/
+               📄 Applications-1.txt
+               📄 Applications-2.txt
+               📄 Applications-3.txt
+            📁 Videos/
+               📄 ac-1.mp4
+               📄 ac-2.mp4
+               📄 ac-3.mp4
+               📄 ac-4.mp4
+         📁 Concepts/
+            📁 Audio/
+               📄 Concepts.mp3
+            📁 Images/
+               📄 icp.png
+               📄 kitchen-chefs.png
+               📄 mutex.png
+               📄 semaphore.png
+               📄 utensils.png
+            📁 Text/
+               📄 Concepts-1.txt
+               📄 Concepts-2.txt
+               📄 Concepts-3.txt
+               📄 Concepts-4.txt
+               📄 Concepts-5.txt
+            📁 Videos/
+               📄 cp-1.mp4
+               📄 cp-2.mp4
+               📄 cp-3.mp4
+               📄 cp-4.mp4
+         📁 Conclusion/
+            📁 Audio/
+               📄 Conclusion.mp3
+            📁 Images/
+               📄 conc-1.png
+            📁 Text/
+               📄 Conclusion.txt
+            📁 Videos/
+               📄 conc-2.mp4
+         📁 Historique/
+            📁 Audio/
+               📄 Historique.mp3
+            📁 Images/
+               📄 Historique-2-1.jpg
+               📄 Historique-2-2.jpg
+               📄 Historique-2-3.png
+               📄 Historique-2-4.jpg
+               📄 Historique-3.png
+               📄 Historique-4.jpg
+               📄 Historique-5.png
+            📁 Text/
+               📄 Historique-1.txt
+               📄 Historique-2.txt
+               📄 Historique-3.txt
+            📁 Videos/
+               📄 Historique-1.mp4
+               📄 Historique-2.mp4
+               📄 Historique-4.mp4
+               📄 Historique-6.mp4
+         📁 Introduction/
+            📁 Audio/
+               📄 Introduction.mp3
+            📁 Text/
+               📄 Introduction.txt
+            📁 Videos/
+               📄 intro-1.mp4
+               📄 intro-2.mp4
+               📄 intro-3.mp4
+      📁 documentation/
+         📄 project_report.pdf
 ```
 
 ## Getting Started

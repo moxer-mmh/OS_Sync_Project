@@ -1,0 +1,1 @@
+Les mutex, tel un verrou sur une porte, garantissant qu'une seule personne accède à une ressource à la fois

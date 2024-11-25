@@ -1,0 +1,1 @@
+Ces mécanismes sont essentiels pour éviter ce qu'on appelle les "situations de compétition" - quand deux programmes tentent d'accéder simultanément à la même ressource

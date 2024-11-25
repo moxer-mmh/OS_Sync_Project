@@ -1,0 +1,1 @@
+La communication inter-processus, comparable à des chefs qui se coordonnent pour préparer un plat complexe

@@ -1,0 +1,2 @@
+
+Les sémaphores, comme un badge d'accès qui contrôle qui peut utiliser une ressource et quand
