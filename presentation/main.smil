@@ -36,15 +36,28 @@
       </par>
 
       <par>
-        <audio src="media/Historique/Audio/Historique.mp3" dur="29s" />
+        <audio src="media/Historique/Audio/Historique.mp3" dur="28.5s" />
         <seq>
-          <video src="media/Historique/Videos/Historique-1.mp4" region="mainRegion" dur="6s"/>
+          <video src="media/Historique/Videos/Historique-1.mp4" region="mainRegion" left="250" top="100" dur="6s"/>
           <video src="media/Historique/Videos/Historique-2.mp4" region="mainRegion" dur="4s"/>
           <img src="media/Historique/Images/Historique-4.jpg" region="mainRegion" top="300" left="500" dur="3s" />
           <img src="media/Historique/Images/Historique-3.png" region="mainRegion" left="350" top="150" dur="3s" />
           <video src="media/Historique/Videos/Historique-4.mp4" region="mainRegion" dur="4s"/>
           <img src="media/Historique/Images/Historique-5.png" region="mainRegion" left="400" top="150" dur="5s" />
-          <video src="media/Historique/Videos/Historique-6.mp4" region="mainRegion" left="100" top="40" dur="4s"/>
+          <video src="media/Historique/Videos/Historique-6.mp4" region="mainRegion" left="100" top="40" dur="3.5s"/>
+        </seq>
+      </par>
+
+      <par>
+        <audio src="media/Concepts/Audio/Concepts.mp3" dur="39s" />
+        <seq>
+          <video src="media/Concepts/Videos/cp-2.mp4" region="mainRegion" left="100" top="40" dur="4s" />
+          <video src="media/Concepts/Videos/cp-1.mp4" region="mainRegion" dur="6s" />
+          <video src="media/Concepts/Videos/cp-3.mp4" region="mainRegion" dur="5s" />
+          <img src="media/Concepts/Images/semaphore.png" region="mainRegion" left="150" top="250" dur="5s" />
+          <img src="media/Concepts/Images/mutex.png" region="mainRegion" left="150" top="250" dur="5s" />
+          <img src="media/Concepts/Images/icp.png" region="mainRegion" left="150" top="200" dur="6s" />
+          <video src="media/Concepts/Videos/cp-4.mp4" region="mainRegion" dur="8s" left="100" top="40" />
         </seq>
       </par>
     </seq>
