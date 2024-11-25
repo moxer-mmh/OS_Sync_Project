@@ -1,0 +1,1 @@
+Les premiers systèmes de time-sharing ont émergé, permettant à plusieurs utilisateurs de partager un même ordinateur. Mais un nouveau problème est apparu : la gestion des ressources communes.

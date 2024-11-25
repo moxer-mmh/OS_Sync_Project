@@ -3,14 +3,14 @@
   <head>
     <layout>
       <!-- Main layout with 1080p dimensions -->
-      <root-layout width="1920" height="1080" backgroundColor="#ffffff"/>
-      
+      <root-layout width="1920" height="1080" backgroundColor="#ffffff" />
+
       <!-- Main content region -->
-      <region id="mainRegion" left="0" top="0" width="1920" height="1080"/>
-      
+      <region id="mainRegion" top="0" width="1920" height="1080" />
+
       <!-- Text overlay region - changed rgba to hex -->
-      <region id="textRegion" left="0" top="800" width="1920" height="100"
-               transparency="100"/>
+      <region id="textRegion" left="300" top="750" width="800" height="100"
+        transparency="100" />
     </layout>
   </head>
 
@@ -18,18 +18,34 @@
     <seq>
       <!-- Introduction Section -->
       <par dur="17s">
-            <!-- Audio narration -->
-            <audio src="media/Introduction/Audio/Introduction.mp3" dur="17s"/>
-            
-            <!-- Videos sequence -->
-            <seq>
-                <video src="media/Introduction/Videos/intro-1.mp4" region="mainRegion" dur="6s" fill="meet"/>
-                <video src="media/Introduction/Videos/intro-2.mp4" region="mainRegion" dur="6s" fill="meet"/>
-                <video src="media/Introduction/Videos/intro-3.mp4" region="mainRegion" dur="5s" fill="meet"/>
-            </seq>
-            
-            <!-- Text overlay -->
-            <text src="media/Introduction/Text/Introduction.txt" region="textRegion"/>
+        <!-- Audio narration -->
+        <audio src="media/Introduction/Audio/Introduction.mp3" dur="17s" />
+
+        <!-- Videos sequence -->
+        <seq>
+          <video src="media/Introduction/Videos/intro-1.mp4" region="mainRegion" left="100" dur="6s"
+            fill="meet" />
+          <video src="media/Introduction/Videos/intro-2.mp4" region="mainRegion" dur="6s"
+            fill="meet" />
+          <video src="media/Introduction/Videos/intro-3.mp4" region="mainRegion" dur="5s"
+            fill="meet" />
+        </seq>
+
+        <!-- Text overlay -->
+        <text src="media/Introduction/Text/Introduction.txt" region="textRegion" dur="12s" />
+      </par>
+
+      <par>
+        <audio src="media/Historique/Audio/Historique.mp3" dur="29s" />
+        <seq>
+          <video src="media/Historique/Videos/Historique-1.mp4" region="mainRegion" dur="6s"/>
+          <video src="media/Historique/Videos/Historique-2.mp4" region="mainRegion" dur="4s"/>
+          <img src="media/Historique/Images/Historique-4.jpg" region="mainRegion" top="300" left="500" dur="3s" />
+          <img src="media/Historique/Images/Historique-3.png" region="mainRegion" left="350" top="150" dur="3s" />
+          <video src="media/Historique/Videos/Historique-4.mp4" region="mainRegion" dur="4s"/>
+          <img src="media/Historique/Images/Historique-5.png" region="mainRegion" left="400" top="150" dur="5s" />
+          <video src="media/Historique/Videos/Historique-6.mp4" region="mainRegion" left="100" top="40" dur="4s"/>
+        </seq>
       </par>
     </seq>
   </body>
